@@ -72,7 +72,6 @@ let main = document.querySelector('main')
 main.ondrop = (event) => {
     event.preventDefault()
     file.files = event.dataTransfer.files
-    upload()
     main.style.background = 'rgba(0,0,0,.2)'
 }
 
